@@ -38,6 +38,7 @@ app.post("/api/favorite", async (req,res) => {
     res.status(500).json({error: "Something went wrong"})
   }
 })
+   
 
 app.get("/api/favorites/:userId", async(req,res)=> {
   try {
